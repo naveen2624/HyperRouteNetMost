@@ -1,0 +1,31 @@
+# Large datasets
+data/raw/gtfs/
+data/processed/
+
+# GeoJSON
+*.geojson
+
+# Large CSV/TXT datasets
+*.txt
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

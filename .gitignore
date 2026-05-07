@@ -1,0 +1,131 @@
+# =========================
+
+# OS / System files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environment
+
+venv/
+venv310/
+.env/
+.venv/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# Data files (IMPORTANT)
+
+# =========================
+
+data/raw/*
+data/processed/*
+outputs/
+cache/
+
+# Keep folder structure but ignore contents
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+
+# ML Models / Large files
+
+# =========================
+
+*.pt
+*.pth
+*.h5
+*.parquet
+*.graphml
+*.csv
+
+# =========================
+
+# Jupyter Notebooks
+
+# =========================
+
+.ipynb_checkpoints
+
+# =========================
+
+# Node.js / Frontend
+
+# =========================
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Logs
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Environment variables
+
+frontend/.env.local
+frontend/.env
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# Build / Temp
+
+# =========================
+
+dist/
+build/
+*.tmp
+*.cache
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.zip
+*.tar
+*.gz
+
+HyperRoutenet-Most-Simulation/data/raw/
+HyperRoutenet-Most-Simulation/data/processed/
+*.geojson
+*.npy
